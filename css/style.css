@@ -1,0 +1,91 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0px;
+}
+
+/*Header*/
+#header-nav {
+	position: relative;
+	background: #23232E;
+	border: 0px;
+	border-radius: 0px;
+	height: 450px;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+#logo-image {
+	background: url("../image/logo.png") no-repeat;
+	width: 254px;
+	height: 180px;
+	margin: 70px 0px 0px 40%;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+ #short-welcome {
+	width: 100%;
+	text-align: center;
+	margin-top: 2em;
+}
+
+#drop-down-sign {
+	width: 100%;
+	text-align: center;
+}
+/* End Header */
+
+
+/* Brief Introduaction */
+#brief-intro {
+	color: #000000;
+	left: 25%;
+	clear:both;
+	text-align: center;
+}
+
+/* End Brief Introduaction */
+
+/* Experience caption */
+#main-content {
+	color: #000000;
+}
+
+#exp-caption {
+	left: 40%;
+	font-size: 40px;
+	font-weight: bold;
+	clear:both;
+}
+/* End Experience caption */
+
+
+/*********** For Large Device ************/
+@media (min-width: 1200px) {
+
+}
+
+/*********** For Median Device ************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*********** For Small Device ************/
+@media (min-width: 742px) and (max-width: 991px) {
+
+}
+
+/*********** For Extreme Small Device ************/
+@media (min-width: 742px) and (max-width: 991px) {
+
+}
+
+
+
