@@ -5,13 +5,13 @@ body {
   margin: 0px;
 }
 
-/*Header*/
+/* Header */
 #header-nav {
 	position: relative;
 	background: #23232E;
 	border: 0px;
 	border-radius: 0px;
-	height: 450px;
+	height: 500px;
 }
 
 .navbar-header {
@@ -39,16 +39,20 @@ h1 {
 #drop-down-sign {
 	width: 100%;
 	text-align: center;
+	margin-top: 50px;
 }
+
 /* End Header */
 
 
 /* Brief Introduaction */
 #brief-intro {
 	color: #000000;
-	left: 25%;
+	margin-left: 25%;
+	margin-top: 25px;
 	clear:both;
 	text-align: center;
+	line-height: 2em;
 }
 
 /* End Brief Introduaction */
@@ -56,13 +60,22 @@ h1 {
 /* Experience caption */
 #main-content {
 	color: #000000;
+
 }
 
 #exp-caption {
 	left: 40%;
+	margin-top: 25px;
+	margin-bottom: 50px;
 	font-size: 40px;
 	font-weight: bold;
 	clear:both;
+}
+
+#exp-thumbnail {
+	clear: both;
+	width: 100%;
+	top: 25px;
 }
 /* End Experience caption */
 
