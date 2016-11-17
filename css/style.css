@@ -18,10 +18,14 @@ body {
 	width: 100%;
 }
 
+header div div {
+	text-align: center;
+}
+
 #logo-image {
 	width: 254px;
 	height: 180px;
-	margin: 70px 0px 0px 40%;
+	margin: 70px 0px 0px 0px;
 }
 
 h1 {
@@ -44,26 +48,21 @@ h1 {
 /* End Header */
 
 
+/* Experience */
+#main-content {
+	color: #000000;
+}
+
 /* Brief Introduaction */
 #brief-intro {
-	color: #000000;
-	margin-left: 25%;
 	margin-top: 25px;
 	clear:both;
 	text-align: center;
 	line-height: 2em;
 }
 
-/* End Brief Introduaction */
-
-/* Experience caption */
-#main-content {
-	color: #000000;
-
-}
 
 #exp-caption {
-	left: 40%;
 	margin-top: 25px;
 	margin-bottom: 50px;
 	font-size: 40px;
@@ -76,7 +75,32 @@ h1 {
 	width: 100%;
 	top: 25px;
 }
-/* End Experience caption */
+/* End Experience */
+
+
+/* Project Detail Information */
+p {
+	clear: both;
+}
+
+#detail-exp {
+	color: black;
+}
+
+/* Detail Experience style*/
+div div{
+	text-align: center;
+}
+
+div>div>section{
+	clear: both;
+}
+/* The list in vision software experience style*/
+section ul {
+	text-align: left;
+}
+
+/* End Project Detail Information */
 
 
 /*********** For Large Device ************/
